@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="global_menu_avatar_size">64dp</dimen>
+
+    <dimen name="text_size_23">23.0sp</dimen>
+    <dimen name="text_size_22">22.0sp</dimen>
+    <dimen name="text_size_21">21.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_19">19.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+
+    <!-- list item height -->
+    <dimen name="item_height">60dp</dimen>
+    <!-- list item icon padding -->
+    <dimen name="item_icon_padding">10dp</dimen>
+    <!-- list item default padding -->
+    <dimen name="item_default_padding">8dp</dimen>
+    <!-- properties container height -->
+    <dimen name="container_height">265dp</dimen>
+    <!-- navigation view height -->
+    <dimen name="nav_height">48dp</dimen>
+
+    <!--about-->
+    <dimen name="about_title">15sp</dimen>
+    <dimen name="about_sign">14sp</dimen>
+    <dimen name="about_content">13sp</dimen>
+
+    <!--WaveSideBarView-->
+    <dimen name="textSize_sidebar">10sp</dimen>
+    <dimen name="wave_textSize_sidebar">32sp</dimen>
+    <dimen name="textSize_sidebar_choose">12sp</dimen>
+    <dimen name="textSize_sidebar_padding">20sp</dimen>
+    <dimen name="radius_sidebar">20dp</dimen>
+    <dimen name="ball_radius_sidebar">24dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

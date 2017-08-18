@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:overScrollMode="never"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.jiepier.filemanager.widget.WaveSideBarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.jiepier.filemanager.widget.ProgressWheel
+        android:layout_gravity="center"
+        android:id="@+id/memory_Progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:matProg_barColor="?attr/colorPrimary"
+        app:matProg_barWidth="4dp"
+        app:matProg_circleRadius="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:matProg_progressIndeterminate="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.jiepier.filemanager.widget.BoomView
+            android:id="@+id/cleanView"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</FrameLayout>

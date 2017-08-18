@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--toolbar背景颜色:应用的主要色调，actionBar默认使用该颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏背景颜色:应用的主要暗色调，statusBarColor默认使用该颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--Checkbox、Edittext、Toggle、Seekbar颜色:一般控件的选种效果默认采用该颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--字体颜色-->
+        <item name="actionModeBackground">@null</item>
+        <!--背景色-->
+        <!--<item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsTranslucent">false</item>-->
+        <!--android:colorPrimaryDark 应用的主要暗色调，statusBarColor默认使用该颜色
+        android:statusBarColor 状态栏颜色，默认使用colorPrimaryDark
+        android:colorPrimary 应用的主要色调，actionBar默认使用该颜色
+        android:windowBackground 窗口背景颜色
+        android:navigationBarColor 底部栏颜色
+        android:colorForeground 应用的前景色，ListView的分割线，switch滑动区默认使用该颜色
+        android:colorBackground 应用的背景色，popMenu的背景默认使用该颜色
+        android:colorAccent 一般控件的选种效果默认采用该颜色
+        android:colorControlNormal 控件的默认色调　
+        android:colorControlHighlight 控件按压时的色调
+        android:colorControlActivated 控件选中时的颜色，默认使用colorAccent
+        android:colorButtonNormal 默认按钮的背景颜色
+        android:textColor Button，textView的文字颜色
+        android:textColorPrimaryDisableOnly RadioButton checkbox等控件的文字
+        android:textColorPrimary 应用的主要文字颜色，actionBar的标题文字默认使用该颜色-->
+        <!-- main drawables -->
+        <item name="action_info">@drawable/holo_light_action_info</item>
+        <item name="action_paste">@drawable/actionpaste</item>
+        <item name="action_remove">@drawable/holo_light_action_remove</item>
+        <item name="action_search">@drawable/holo_light_action_search</item>
+
+        <!-- action mode drawables -->
+        <item name="action_copy">@drawable/holo_dark_action_copy</item>
+        <item name="action_cut">@drawable/holo_dark_action_cut</item>
+        <item name="action_edit">@drawable/holo_dark_action_edit</item>
+        <item name="action_multi">@drawable/holo_dark_ic_action_select_all</item>
+        <item name="action_zip">@drawable/holo_dark_ic_storage</item>
+        <item name="action_bookmark">@drawable/holo_dark_ic_bookmark</item>
+        <item name="action_delete">@drawable/holo_dark_action_delete</item>
+        <item name="action_share">@drawable/holo_dark_action_share</item>
+    </style>
+
+    <style name="toolbar_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!--通用工具栏-->
+    <declare-styleable name="BaseToolBar">
+        <!--左侧文字-->
+        <attr name="leftText" format="string" />
+        <!--中间文字-->
+        <attr name="centerText" format="string" />
+        <!--右侧文字-->
+        <attr name="rightText" format="string" />
+        <!--左侧文字大小-->
+        <attr name="leftTextSize" format="integer" />
+        <!--中间文字大小-->
+        <attr name="rightTextSize" format="integer" />
+        <!--右侧文字大小-->
+        <attr name="centerTextSize" format="integer" />
+        <!--左侧图标-->
+        <attr name="leftIcon" format="reference" />
+        <!--右侧图标-->
+        <attr name="rightIcon" format="reference" />
+        <!--右侧第一个图标-->
+        <attr name="leftrightIcon" format="reference" />
+        <!--右侧图标背景-->
+        <attr name="leftIconBackground" format="reference" />
+        <!--右侧图标背景-->
+        <attr name="rightIconBackground" format="reference" />
+    </declare-styleable>
+
+    <style name="MenuColorStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">?attr/colorPrimary</item>
+        <item name="fab_colorPressed">?attr/colorAccent</item>
+        <item name="fab_colorRipple">@color/white_transparent</item>
+    </style>
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="popupTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <declare-styleable name="PowerProgressBar">
+        <attr name="progress" format="integer"/>
+        <attr name="startAngle" format="integer"/>
+        <attr name="roundColor" format="color"/>
+        <attr name="roundFillColor" format="color"/>
+        <attr name="centerTopTextSizePercent" format="float"/>
+        <attr name="centerTextSizePercent" format="float"/>
+        <attr name="centerBottomTextSizePercent" format="float"/>
+        <attr name="centerTopText" format="string"/>
+        <attr name="centerTexts" format="string"/>
+        <attr name="centerBottomText" format="string"/>
+        <attr name="isClockwise" format="boolean"/>
+        <attr name="roundWith" format="integer"/>
+        <attr name="roundRadiusWeight" format="float"/>
+        <attr name="roundWidthWeight" format="float"/>
+        <attr name="roundRadius" format="integer"/>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ThemeColorIconView">
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+
+    <style name="item_category_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/category_item_click_bg</item>
+    </style>
+    <style name="item_category_style2">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="power_progressbar_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/category_item_click_bg</item>
+    </style>
+
+    <declare-styleable name="WaveSideBarView">
+        <attr name="sidebarTextColor" format="color|reference"/>
+        <attr name="sidebarBackgroundColor" format="color|reference"/>
+        <attr name="sidebarChooseTextColor" format="color|reference"/>
+        <attr name="sidebarTextSize" format="dimension"/>
+        <attr name="sidebarWaveTextSize" format="dimension"/>
+        <attr name="sidebarRadius" format="dimension"/>
+        <attr name="sidebarBallRadius" format="dimension"/>
+    </declare-styleable>
+
+    <style name="listDivider">
+        <item name="divider">@drawable/divider_bg</item>
+    </style>
+
+    <!--垃圾清理结束透明dialog-->
+    <style name="junk_finish_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

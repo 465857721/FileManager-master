@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <com.jiepier.filemanager.widget.PowerProgressBar
+            android:id="@+id/memoryProgressbar"
+            style="@style/power_progressbar_style"
+            android:background="?attr/colorPrimary"
+            app:centerBottomText="memory"
+            app:centerTexts="2.0G/2.7G"
+            app:centerTopText="76%"
+            app:isClockwise="true"
+            app:progress="70"
+            app:roundColor="?attr/colorPrimary"
+            app:roundFillColor="@color/white"
+            app:roundRadiusWeight="0.7"
+            app:startAngle="45"/>
+
+        <com.jiepier.filemanager.widget.PowerProgressBar
+            android:id="@+id/storageProgressbar"
+            style="@style/power_progressbar_style"
+            android:background="?attr/colorPrimary"
+            app:centerBottomText="storage"
+            app:centerTexts="14G/25G"
+            app:centerTopText="56%"
+            app:isClockwise="true"
+            app:progress="50"
+            app:roundColor="?attr/colorPrimary"
+            app:roundFillColor="@color/white"
+            app:startAngle="45"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/item_music"
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_music_white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_picture"
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_picture_white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_video"
+
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_video_white"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+            <RelativeLayout
+                android:id="@+id/item_document"
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_document_white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_zip"
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_zip_white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_apk"
+
+                style="@style/item_category_style2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_category_download_white"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

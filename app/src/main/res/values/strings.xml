@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Super File Manager</string>
+    <string name="app_menu">File Manager</string>
+
+    <string name="minus" translatable="false">-</string>
+    <string name="advancedsettings">Advanced</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannotbeundoneareyousureyouwanttodelete">"This cannot be undone!"</string>
+    <string name="cantopenfile">Cannot open this file</string>
+    <string name="cantreadfolder">Cannot read folder due to permissions</string>
+    <string name="changegroupowner">Change group/owner</string>
+    <string name="copiedtoclipboard">Copied to clipboard.</string>
+    <string name="copy">Copy</string>
+    <string name="zip">Zip</string>
+    <string name="copyfail">Copy failed!</string>
+    <string name="copying">Copying</string>
+    <string name="copysuccsess">Successfully copied.</string>
+    <string name="create">Create</string>
+    <string name="created">" Created."</string>
+    <string name="createmsg">Set a period before the text to create hidden folder.</string>
+    <string name="createnewfolder">Create new folder</string>
+    <string name="defaultdir">Default directory</string>
+    <string name="default_sacn_dir">Default Sacn directory</string>
+    <string name="delete">Delete</string>
+    <string name="deletesuccess">Delete successful</string>
+    <string name="deleting">Deleting</string>
+    <string name="desc">desc</string>
+    <string name="detailed">Detailed</string>
+    <string name="details">Details</string>
+    <string name="dir_info">Folder information</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="edit">Edit</string>
+    <string name="empty">Empty</string>
+    <string name="enable_root">Enable root access</string>
+    <string name="enter_name">Enter name</string>
+    <string name="error">Error</string>
+    <string name="exit">Exit</string>
+    <string name="certain">Certain</string>
+    <string name="sure_to_exit">Are you sure to exit?</string>
+    <string name="extractto">Extract to</string>
+    <string name="extractionsuccess">Package successfully extracted.</string>
+    <string name="filecreated">File was created.</string>
+    <string name="fileexists">File already exists.</string>
+    <string name="files">" Files"</string>
+    <string name="filewasrenamed">File was renamed.</string>
+    <string name="hiddenfiles">Hidden files</string>
+    <string name="itcouldntbefound">It couldnt be found.</string>
+    <string name="LastModified">Last modified:</string>
+    <string name="md5">MD5:</string>
+    <string name="move">Move</string>
+    <string name="movefail">Moving failed.</string>
+    <string name="movesuccsess">Successfully moved.</string>
+    <string name="moving">Moving</string>
+    <string name="multizip">Zip</string>
+    <string name="newfile">New file</string>
+    <string name="newfolderwasnotcreated">New folder was not created.</string>
+    <string name="ok">OK</string>
+    <string name="options">Options</string>
+    <string name="packing">Packing</string>
+    <string name="paste">Paste</string>
+    <string name="pressbackagaintoquit">Press back again to exit.</string>
+    <string name="rename">Rename</string>
+    <string name="search">Search</string>
+    <string name="searchtext">Search</string>
+    <string name="selectall">Select all</string>
+    <string name="settings">Settings</string>
+    <string name="sha1_key">SHA-1:</string>
+    <string name="share">Share</string>
+    <string name="shortcut">Create shortcut</string>
+    <string name="shortcutcreated">Shortcut created.</string>
+    <string name="showpreview">Thumbnails</string>
+    <string name="simple">Simple</string>
+    <string name="size">Used:</string>
+    <string name="uisettings">View settings</string>
+    <string name="unzipping">Extracting</string>
+    <string name="viewmode">View mode</string>
+    <string name="xdaforum">XDA forum</string>
+    <string name="createFile">Create File</string>
+    <string name="createFolder">Create Folder</string>
+    <string name="scrollToTop">Scroll To Top</string>
+    <string name="waitForOpen">Please wait for open</string>
+    <string name="loading">Loading…</string>
+    <string name="clean">Clean</string>
+    <string name="system_cache">System Cache</string>
+
+    <!--drawer-->
+    <string name="sdCard">SDCard</string>
+    <string name="category">Category</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="lightModel">LightModel</string>
+    <string name="theme">Theme</string>
+
+    <!-- directory info dialog -->
+    <string name="location">Location:</string>
+    <string name="total">Total space:</string>
+    <string name="free">Free space:</string>
+    <string name="block_size">Block size:</string>
+    <string name="used">Used:</string>
+
+    <!-- permissions -->
+    <string name="permissions">Permissions:</string>
+    <string name="owner">Owner:</string>
+    <string name="group">Group:</string>
+    <string name="others">Other:</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="execute">Execute</string>
+    <string name="permissionschanged">Permissions changed</string>
+
+    <!-- permissions -->
+    <string name="message_denied">Permission \"%1$s\" has been denied</string>
+
+    <!-- bookmarks -->
+    <string name="bookmark">Bookmarks</string>
+    <string name="bookmarkadded">Bookmark added.</string>
+    <string name="bookmarkexist">Bookmark already exists!</string>
+    <string name="createbookmark">Create bookmark</string>
+
+    <!-- actionmode -->
+    <string name="_files">\u0020file(s)</string>
+    <string name="_selected">\u0020selected</string>
+
+    <!-- overwrite dialog -->
+    <string name="overwrite_title">Target file already exists</string>
+    <string name="overwrite_source">Source</string>
+    <string name="overwrite_destination">Destination</string>
+    <string name="overwrite_skip">Skip</string>
+    <string name="overwrite_skip_all">Skip all</string>
+    <string name="overwrite_replace">Replace</string>
+    <string name="overwrite_replace_all">Replace all</string>
+
+    <!--categroy-->
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="picture">Picture</string>
+    <string name="document">Document</string>
+    <string name="memory">Memory</string>
+    <string name="storage">Storage</string>
+
+    <!-- storage -->
+    <string name="junk">Junk</string>
+    <string name="wait_for_scan">Waiting for scan…</string>
+    <string name="clean_size">0.00B</string>
+    <string name="total_found">Total found:</string>
+    <string name="running_app">Running App</string>
+    <string name="cache_junk">Cache Junk</string>
+    <string name="unuseful_apk">Unsueful Apk</string>
+    <string name="temp_file">Temp File</string>
+    <string name="log">Log</string>
+    <string name="big_file">Big File</string>
+    <string name="clean_failure">Clean Failure</string>
+
+    <!--<string name="zip">Zip</string>-->
+    <string name="apk">APK</string>
+    <string name="apk_manager">Apk Manager</string>
+    <string name="music_manager">Music Manager</string>
+    <string name="video_manager">Video Manager</string>
+    <string name="document_manager">Document Manager</string>
+    <string name="zip_manager">Zip Manager</string>
+    <string name="picture_manager">Picture Manager</string>
+
+    <!-- setting -->
+    <string name="settings_general_settings">General Setting</string>
+    <string name="settings_md_colors">Theme</string>
+    <string name="settings_auto_update">Auto update</string>
+    <string name="settings_other">Other</string>
+    <string name="settings_notification_settings">Notification</string>
+    <string name="settings_auto_notification">Accept notification</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_select">Language Select</string>
+    <string name="settings_language_follow_system">Follow System</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_simple_chinise">SIMPLE CHINISE</string>
+    <string name="settings_language_traditional_chinise">TRADITIONAL CHINISE</string>
+
+    <!--about-->
+    <string name="about_title">About</string>
+    <string name="about_nickname">JiePier</string>
+    <string name="about_github">https://github.com/RuijiePan</string>
+    <string name="about_sign">An Android Developer In GOMO</string>
+    <string name="about_project_introduce">File Manager项目所用的基本上是Rx系列的框架 ( ReactiveX ) :\n\n\tRxJava\n\tRxAndroid\n\tButterknife\n\n以基本的MVP模式为主划分模块，抽出Presenter作为View代理业务层，减轻View层代码的耦合度，然后集成了现在主流的RxJava+RxAndroid+MVP组合框架。\n</string>
+    <string name="about_project_introduce_content">https://github.com/RuijiePan/FileManager\n</string>
+
+    <!--辅助功能-->
+    <string name="accessibility_stop">FORCE STOP</string>
+    <string name="accessibility_ok">OK</string>
+    <string name="accessibility_clear_data">Clear data</string>
+    <string name="accessibility_clear_cache">Clear cache</string>
+    <string name="accessibility_description">Please click the checkbox for process clean.We promise do not collect any information about you.</string>
+    <string name="accessibility_guide_tip">Tap FileManager in Service</string>
+
+    <string-array name="mdColorNames">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue grey</item>
+    </string-array>
+
+</resources>
+
+

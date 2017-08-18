@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <attr format="color|reference" name="themeColor"/>
+  <attr format="color|reference" name="themeAccentColor"/>
+
+  <attr format="color|reference" name="widgetBackground"/>
+  <attr format="color|reference" name="widgetBackgroundDark"/>
+  <attr format="color|reference" name="widgetBackgroundTitle"/>
+
+  <!-- drawables -->
+  <attr name="action_copy" format="reference" />
+  <attr name="action_cut" format="reference" />
+  <attr name="action_edit" format="reference" />
+  <attr name="action_info" format="reference" />
+  <attr name="action_paste" format="reference" />
+  <attr name="action_bookmark" format="reference" />
+  <attr name="action_delete" format="reference" />
+  <attr name="action_remove" format="reference" />
+  <attr name="action_search" format="reference" />
+  <attr name="action_share" format="reference" />
+  <attr name="action_zip" format="reference" />
+  <attr name="action_multi" format="reference" />
+
+  <!-- PageIndicator style -->
+  <declare-styleable name="PageIndicatorStyle">
+    <attr name="PageIndicatorStyle" format="reference" />
+    <!-- Whether or not the selected indicator fades. -->
+    <attr name="fades" format="boolean" />
+    <!-- Length of the delay to fade the indicator. -->
+    <attr name="fadeDelay" format="integer" />
+    <!-- Length of the indicator fade to transparent. -->
+    <attr name="fadeLength" format="integer" />
+    <!-- Color of the selected line that represents the current page. -->
+    <attr name="selectedColor" format="color" />
+    <!-- View background -->
+    <attr name="android:background" />
+  </declare-styleable>
+
+  <declare-styleable name="CircularProgress">
+    <attr name="borderWidth" format="dimension" />
+  </declare-styleable>
+
+  <!-- 5.0风格圆形进度条 -->
+  <declare-styleable name="ProgressWheel">
+    <attr name="matProg_progressIndeterminate" format="boolean" />
+    <attr name="matProg_barColor" format="color" />
+    <attr name="matProg_rimColor" format="color" />
+    <attr name="matProg_rimWidth" format="dimension" />
+    <attr name="matProg_spinSpeed" format="float" />
+    <attr name="matProg_barSpinCycleTime" format="integer" />
+    <attr name="matProg_circleRadius" format="dimension" />
+    <attr name="matProg_fillRadius" format="boolean" />
+    <attr name="matProg_barWidth" format="dimension" />
+    <attr name="matProg_linearProgress" format="boolean" />
+  </declare-styleable>
+
+</resources>
