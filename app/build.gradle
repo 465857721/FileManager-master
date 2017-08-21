@@ -19,7 +19,7 @@ android {
         additionalParameters "--no-version-vectors"
     }
     defaultConfig {
-        applicationId "com.jiepier.filemanager"
+        applicationId "com.android11.filemanager"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

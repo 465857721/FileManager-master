@@ -80,7 +80,7 @@ public class ProcessManager {
                         abAppProcessInfo.setSystem(false);
                     }
                     Drawable icon = appInfo.loadIcon(mPackageManager) == null ?
-                            mContext.getResources().getDrawable(R.mipmap.ic_launcher)
+                            mContext.getResources().getDrawable(R.drawable.ic_launcher)
                             : appInfo.loadIcon(mPackageManager);
                     String name = appInfo.loadLabel(mPackageManager).toString();
                     abAppProcessInfo.setIcon(icon);
@@ -95,7 +95,7 @@ public class ProcessManager {
                             Drawable icon = appInfo.loadIcon(mPackageManager);
                             abAppProcessInfo.setIcon(icon);
                         } else {
-                            abAppProcessInfo.setIcon(mContext.getResources().getDrawable(R.mipmap.ic_launcher));
+                            abAppProcessInfo.setIcon(mContext.getResources().getDrawable(R.drawable.ic_launcher));
                         }
                     }
                     abAppProcessInfo.setSystem(true);

@@ -28,7 +28,7 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:paddingLeft="10dp"
-        fab:layout_behavior=".widget.FloatingActionMenuBehavior"
+        fab:layout_behavior="com.jiepier.filemanager.widget.FloatingActionMenuBehavior"
         fab:menu_colorNormal="?attr/colorPrimary"
         fab:menu_colorPressed="?attr/colorAccent"
         fab:menu_colorRipple="@color/white_transparent"
