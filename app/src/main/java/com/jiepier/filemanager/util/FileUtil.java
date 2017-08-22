@@ -15,14 +15,14 @@ import android.support.v4.provider.DocumentFile;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.base.App;
-import com.jiepier.filemanager.bean.ImageFolder;
-import com.jiepier.filemanager.bean.Music;
-import com.jiepier.filemanager.bean.entity.ApkInfo;
-import com.jiepier.filemanager.preview.IconPreview;
-import com.jiepier.filemanager.preview.MimeTypes;
-import com.jiepier.filemanager.ui.main.MainActivity;
+import com.android11.filemanager.R;
+import com.android11.filemanager.base.App;
+import com.android11.filemanager.bean.ImageFolder;
+import com.android11.filemanager.bean.Music;
+import com.android11.filemanager.bean.entity.ApkInfo;
+import com.android11.filemanager.preview.IconPreview;
+import com.android11.filemanager.preview.MimeTypes;
+import com.android11.filemanager.ui.main.MainActivity;
 
 import java.io.File;
 import java.io.FileInputStream;

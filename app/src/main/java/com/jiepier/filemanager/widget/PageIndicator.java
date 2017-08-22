@@ -15,7 +15,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 public class PageIndicator extends View implements ViewPager.OnPageChangeListener {
 

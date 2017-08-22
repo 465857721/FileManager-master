@@ -4,7 +4,7 @@
                 android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.jiepier.filemanager.ui.category.memory.accessibility.AccessibilityGuideFloatViewLayout
+    <com.android11.filemanager.ui.category.memory.accessibility.AccessibilityGuideFloatViewLayout
         android:id="@+id/guide_float_window_layout"
         android:layout_width="244dp"
         android:layout_height="148dp"
@@ -64,5 +64,5 @@
             android:textSize="14sp"
             android:layout_below="@+id/guide_float_window_tips_layout"
             android:layout_centerHorizontal="true" />
-    </com.jiepier.filemanager.ui.category.memory.accessibility.AccessibilityGuideFloatViewLayout>
+    </com.android11.filemanager.ui.category.memory.accessibility.AccessibilityGuideFloatViewLayout>
 </RelativeLayout>

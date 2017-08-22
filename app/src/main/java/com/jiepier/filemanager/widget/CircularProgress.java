@@ -16,7 +16,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.jiepier.filemanager.util.ColorUtil;
 
 /**

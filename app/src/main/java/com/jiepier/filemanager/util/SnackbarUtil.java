@@ -7,7 +7,7 @@ package com.jiepier.filemanager.util;
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * Created by prj on 2016/8/17.

@@ -1,28 +1,19 @@
 package com.jiepier.filemanager.widget;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
-import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.widget.EditText;
-import android.widget.Toast;
 
-import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.blankj.utilcode.utils.FileUtils;
-import com.blankj.utilcode.utils.ZipUtils;
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.task.ZipTask;
-import com.jiepier.filemanager.util.FileUtil;
+import com.android11.filemanager.R;
+import com.android11.filemanager.task.ZipTask;
 import com.jiepier.filemanager.util.UUIDUtil;
 
 
 import java.io.File;
-import java.util.UUID;
 
 public final class ZipFilesDialog extends DialogFragment {
 

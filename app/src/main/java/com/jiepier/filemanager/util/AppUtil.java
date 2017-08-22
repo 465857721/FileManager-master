@@ -6,7 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 
-import com.jiepier.filemanager.bean.AppInfo;
+import com.android11.filemanager.bean.AppInfo;
 
 import java.io.File;
 import java.util.ArrayList;

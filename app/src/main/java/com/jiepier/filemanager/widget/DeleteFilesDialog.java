@@ -1,18 +1,14 @@
 package com.jiepier.filemanager.widget;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
-import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 
-import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.task.DeleteTask;
+import com.android11.filemanager.R;
+import com.android11.filemanager.task.DeleteTask;
 
 
 public final class DeleteFilesDialog extends DialogFragment {

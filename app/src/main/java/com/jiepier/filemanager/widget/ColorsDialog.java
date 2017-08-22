@@ -14,8 +14,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.event.ChangeThemeEvent;
+import com.android11.filemanager.R;
+import com.android11.filemanager.event.ChangeThemeEvent;
 import com.jiepier.filemanager.util.RxBus.RxBus;
 import com.jiepier.filemanager.util.SettingPrefUtil;
 import com.jiepier.filemanager.util.ThemeUtil;

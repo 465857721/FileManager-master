@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * Created by panruijie on 2017/3/6.

@@ -6,10 +6,10 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.util.DisplayMetrics;
 
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.bean.entity.LanguageType;
-import com.jiepier.filemanager.constant.AppConstant;
-import com.jiepier.filemanager.event.LanguageEvent;
+import com.android11.filemanager.R;
+import com.android11.filemanager.bean.entity.LanguageType;
+import com.android11.filemanager.constant.AppConstant;
+import com.android11.filemanager.event.LanguageEvent;
 import com.jiepier.filemanager.util.RxBus.RxBus;
 
 import java.util.Locale;

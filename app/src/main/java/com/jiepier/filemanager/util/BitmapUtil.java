@@ -18,7 +18,7 @@ import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * Created by panruijiesx on 2016/11/24.

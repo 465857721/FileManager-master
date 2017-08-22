@@ -17,10 +17,10 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.base.App;
-import com.jiepier.filemanager.bean.AppProcessInfo;
-import com.jiepier.filemanager.manager.ProcessManager;
+import com.android11.filemanager.R;
+import com.android11.filemanager.base.App;
+import com.android11.filemanager.bean.AppProcessInfo;
+import com.android11.filemanager.manager.ProcessManager;
 import com.jiepier.filemanager.util.BitmapUtil;
 
 import java.util.List;

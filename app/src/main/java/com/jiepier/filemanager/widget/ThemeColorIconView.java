@@ -16,7 +16,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import com.blankj.utilcode.utils.ImageUtils;
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.jiepier.filemanager.util.BitmapUtil;
 import com.jiepier.filemanager.util.ColorUtil;
 

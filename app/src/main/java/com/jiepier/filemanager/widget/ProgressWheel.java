@@ -14,7 +14,7 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 
 /**

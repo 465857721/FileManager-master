@@ -2,7 +2,7 @@ package com.jiepier.filemanager.util;
 
 import android.content.Context;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 
 /**

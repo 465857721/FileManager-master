@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.jiepier.filemanager.util.BitmapUtil;
 import com.jiepier.filemanager.util.DisplayUtil;
 

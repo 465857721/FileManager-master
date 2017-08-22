@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.support.annotation.AttrRes;
 import android.support.annotation.NonNull;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 
 /**

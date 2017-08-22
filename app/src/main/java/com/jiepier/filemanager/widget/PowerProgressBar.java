@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.OvershootInterpolator;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.jiepier.filemanager.util.ColorUtil;
 
 /**

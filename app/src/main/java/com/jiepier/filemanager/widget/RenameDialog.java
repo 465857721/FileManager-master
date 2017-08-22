@@ -9,8 +9,8 @@ import android.support.annotation.NonNull;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.blankj.utilcode.utils.FileUtils;
-import com.jiepier.filemanager.R;
-import com.jiepier.filemanager.task.RenameTask;
+import com.android11.filemanager.R;
+import com.android11.filemanager.task.RenameTask;
 
 
 public final class RenameDialog extends DialogFragment {

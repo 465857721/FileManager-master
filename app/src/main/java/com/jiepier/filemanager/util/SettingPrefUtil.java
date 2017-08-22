@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * Created by sll on 2015/5/16.

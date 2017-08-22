@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.jiepier.filemanager.util.FileUtil;
 import com.jiepier.filemanager.util.Permissions;
 import com.jiepier.filemanager.util.RootCommands;

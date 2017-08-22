@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 public final class FileExistsDialog extends MaterialDialog {
 

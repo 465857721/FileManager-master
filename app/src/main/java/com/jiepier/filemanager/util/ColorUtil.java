@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.util.TypedValue;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * Created by panruijie on 16/12/26.

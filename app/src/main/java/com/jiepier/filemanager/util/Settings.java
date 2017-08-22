@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 import com.stericson.RootTools.RootTools;
 
 public final class Settings {

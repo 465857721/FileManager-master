@@ -11,7 +11,7 @@ import android.support.v7.widget.RecyclerView.State;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
-import com.jiepier.filemanager.R;
+import com.android11.filemanager.R;
 
 /**
  * @author zhy

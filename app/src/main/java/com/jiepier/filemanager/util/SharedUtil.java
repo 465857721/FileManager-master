@@ -8,7 +8,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import com.jiepier.filemanager.base.App;
+import com.android11.filemanager.base.App;
 
 //TODO: Auto-generated Javadoc
 
