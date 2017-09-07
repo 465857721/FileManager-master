@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.android11.filemanager.R;
 import com.qq.e.ads.splash.SplashAD;
 import com.qq.e.ads.splash.SplashADListener;
+import com.qq.e.comm.util.AdError;
 
 
 public class LoadingActivity extends AppCompatActivity implements SplashADListener {
@@ -39,7 +40,7 @@ public class LoadingActivity extends AppCompatActivity implements SplashADListen
         skipView = (TextView) findViewById(R.id.skip_view);
         splashHolder = (ImageView) findViewById(R.id.splash_holder);
 
-        fetchSplashAD(this, container, skipView, "1106343208", "2090922439607008", this, 5000);
+        fetchSplashAD(this, container, skipView, "1106296851", "1040727566451870", this, 5000);
 
 
 //        Timer time = new Timer();
@@ -103,8 +104,9 @@ public class LoadingActivity extends AppCompatActivity implements SplashADListen
     }
 
     @Override
-    public void onNoAD(int arg0) {
-        Log.i("AD_DEMO", "LoadSplashADFail,ecode=" + arg0);
+    public void onNoAD(AdError arg0) {
+        Log.i("AD_DEMO", "LoadSplashADFail,ecode=" + arg0.getErrorCode());
+        Log.i("AD_DEMO", "LoadSplashADFail,msg=" + arg0.getErrorMsg());
         next();
     }
 
