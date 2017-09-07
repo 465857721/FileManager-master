@@ -7,11 +7,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
+import com.android11.filemanager.R;
 import com.android11.filemanager.base.BaseFragment;
 import com.android11.filemanager.base.BaseFragmentPagerAdapter;
 import com.android11.filemanager.event.NewTabEvent;
-import com.android11.filemanager.R;
-import com.android11.filemanager.event.SnackBarEvent;
 import com.android11.filemanager.ui.common.CommonFragment;
 import com.jiepier.filemanager.util.FileUtil;
 import com.jiepier.filemanager.util.RxBus.RxBus;
@@ -36,7 +35,7 @@ public class SDCardFragment extends BaseFragment {
     private LinkedList<String> titleList;
     private BaseFragmentPagerAdapter mAdapter;
 
-    public static SDCardFragment newInstance(String path){
+    public static SDCardFragment newInstance(String path) {
         SDCardFragment instance = new SDCardFragment();
         Bundle args = new Bundle();
         args.putString("path", path);
@@ -127,7 +126,8 @@ public class SDCardFragment extends BaseFragment {
             viewpager.setCurrentItem(mAdapter.getCount() - 1);
             return true;
         } else {
-            RxBus.getDefault().post(new SnackBarEvent(getString(R.string.sure_to_exit)));
+            getActivity().finish();
+//            RxBus.getDefault().post(new SnackBarEvent(getString(R.string.sure_to_exit)));
         }
         return false;
     }
