@@ -103,7 +103,9 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/accessible_service_config"/>
         </service>
-
+        Warning:One of the plugins you are using supports Java 8 language features. To try the support built into the Android plugin, remove the following from your build.gradle:
+        apply plugin: 'me.tatarka.retrolambda'
+        To learn more, go to https://d.android.com/r/tools/java-8-support-message.html
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
