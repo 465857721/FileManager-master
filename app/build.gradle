@@ -24,6 +24,7 @@ android {
         versionCode 120
         versionName "1.2.0"
         vectorDrawables.useSupportLibrary = true
+        buildConfigField("String", "releaseTime","\"" +java.lang.System.currentTimeMillis()+"\"")
     }
 
     configurations.all {

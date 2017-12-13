@@ -2,9 +2,13 @@ package com.android11.filemanager.ui.splash;
 
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -12,7 +16,9 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android11.filemanager.BuildConfig;
 import com.android11.filemanager.R;
 import com.qq.e.ads.splash.SplashAD;
 import com.qq.e.ads.splash.SplashADListener;
@@ -40,25 +46,19 @@ public class LoadingActivity extends AppCompatActivity implements SplashADListen
         skipView = (TextView) findViewById(R.id.skip_view);
         splashHolder = (ImageView) findViewById(R.id.splash_holder);
 
+
+        Toast.makeText(this, "" + BuildConfig.releaseTime, Toast.LENGTH_LONG).show();
+        if (getAppMetaData(this, "UMENG_CHANNEL").equals("vivo")
+                || getAppMetaData(this, "UMENG_CHANNEL").equals("oppo")) {
+            if (System.currentTimeMillis() - Long.valueOf(BuildConfig.releaseTime) < 3 * 24 * 60 * 60 * 1000) {
+                next();
+                return;
+            }
+        }
+
         fetchSplashAD(this, container, skipView, "1106296851", "1040727566451870", this, 5000);
 
-
-//        Timer time = new Timer();
-//        TimerTask tk = new TimerTask() {
-//            @Override
-//            public void run() {
-//                // TODO Auto-generated method stub
-//                gotoActivity();
-//                finish();
-//            }
-//        };
-//        time.schedule(tk, timelong);
     }
-
-//    @Override
-//    protected void setStatusBar() {
-//
-//    }
 
 
     /**
@@ -135,5 +135,26 @@ public class LoadingActivity extends AppCompatActivity implements SplashADListen
             return true;
         }
         return super.onKeyDown(keyCode, event);
+    }
+
+    public static String getAppMetaData(Context ctx, String key) {
+        if (ctx == null || TextUtils.isEmpty(key)) {
+            return null;
+        }
+        String resultData = null;
+        try {
+            PackageManager packageManager = ctx.getPackageManager();
+            if (packageManager != null) {
+                ApplicationInfo applicationInfo = packageManager.getApplicationInfo(ctx.getPackageName(), PackageManager.GET_META_DATA);
+                if (applicationInfo != null) {
+                    if (applicationInfo.metaData != null) {
+                        resultData = applicationInfo.metaData.getString(key);
+                    }
+                }
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return resultData;
     }
 }
