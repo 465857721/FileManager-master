@@ -300,7 +300,7 @@ public class FileUtil {
         intent.setAction(Intent.ACTION_VIEW);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            Uri contentUri = FileProvider.getUriForFile(context, "com.jiepier.filemanager" + ".fileprovider", target);
+            Uri contentUri = FileProvider.getUriForFile(context, "com.android11.filemanager" + ".fileprovider", target);
             intent.setDataAndType(contentUri, mime);
 
             if (mime != null) {
