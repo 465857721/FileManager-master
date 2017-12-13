@@ -47,7 +47,6 @@ public class LoadingActivity extends AppCompatActivity implements SplashADListen
         splashHolder = (ImageView) findViewById(R.id.splash_holder);
 
 
-        Toast.makeText(this, "" + BuildConfig.releaseTime, Toast.LENGTH_LONG).show();
         if (getAppMetaData(this, "UMENG_CHANNEL").equals("vivo")
                 || getAppMetaData(this, "UMENG_CHANNEL").equals("oppo")) {
             if (System.currentTimeMillis() - Long.valueOf(BuildConfig.releaseTime) < 3 * 24 * 60 * 60 * 1000) {
